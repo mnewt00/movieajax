@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://bootswatch.com/4/materia/bootstrap.css" />
+    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movies</title>
+    <style>
+    @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,600");
+
+    * {
+        font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+
+    
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark bg-primary">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">Movie Info</a>
+            </div>
+        </div>
+    </nav>
+<div class="">
+    <div class="jumbotron">
+        <h3 class="text-center">Search for any Movie</h3>
+        <form id="searchForm">
+            <input type="text" class="form-control" id="searchText" placeholder="Type movie...">
+        </form>
+    </div>
+</div>
+
+<div class="container">
+    <div id="movies" class="row">
+
+    </div>
+</div>
+
+    
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="/node_modules/axios/dist/axios.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
